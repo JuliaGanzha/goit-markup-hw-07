@@ -1,0 +1,35 @@
+/* Cards block */
+.pf-card {
+  box-sizing: border-box;
+  width: 370px;
+}
+.pf-card:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
+}
+.pf-card:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+.cards-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pf-card > .card-link {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
+  border-top-width: 0;
+}
+.pf-card .pf-card-title {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  margin-bottom: 4px;
+  margin-left: 24px;
+}
+.pf-card-descr {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  margin-left: 24px;
+}

@@ -1,0 +1,46 @@
+/*client*/
+
+.section-title {
+  margin-bottom: 50px;
+}
+.client .icon-client:not(:last-child) {
+  margin-right: 30px;
+  /* margin-top: 50px;*/
+}
+
+.icon .icon-card {
+  border-radius: 50%;
+  /*color: var(--icon-color);*/
+}
+.client .icon-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.client .icon-logo {
+  fill: #afb1b8;
+  margin-top: 16px;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-bottom: 16px;
+}
+.client .icon-logo:hover {
+  fill: var(--accent-color);
+}
+
+.client .card-client {
+  display: flex;
+}
+.client .icon-client {
+  width: 170px;
+  height: 92px;
+  border-style: solid;
+  background-color: #ffffff;
+  border: 1px solid #afb1b8;
+  border-radius: 5px;
+}
+
+.client .icon-client:hover {
+  border-color: var(--accent-color);
+  /*border-top: 2px solid var(--accent-color);*/
+}
