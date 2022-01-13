@@ -3,14 +3,14 @@
   padding: 0 0 94px 0;
   margin: 0 auto;
 }
-.what-we-do .section-title {
+.what-we-do .section-card__title {
   margin-bottom: 50px;
 }
-.what-we-do .section-list {
+.what-we-do .section-card__list {
   display: flex;
   justify-content: space-between;
 }
-.img-wrap {
+.section-card__img-wrap {
   position: relative;
   text-align: center;
   color: #ffffff;
@@ -18,7 +18,7 @@
   line-height: 1.14;
 }
 
-.descript {
+.section-card__descript {
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -29,7 +29,7 @@
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
 }
-.descript .descript-title {
+.section-card__descript .section-card__descript-title {
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -37,15 +37,15 @@
 .section.our-team {
   background-color: var(--secondary-bg-color);
 }
-.our-team .section-title {
+.our-team .section-card__title {
   margin-bottom: 50px;
 }
 
-.section-list.cards {
+.section-card__list.cards {
   display: flex;
   justify-content: space-between;
 }
-.section-list.cards > .card {
+.section-card__list.cards > .card {
   background-color: var(--primary-white-color);
   width: 270px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
